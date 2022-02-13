@@ -16,7 +16,7 @@ Dans ce repo, on trouvera les fils de pensées qui m'auront permis de créer ma 
  
  - Mais pourquoi tu te lance là dedans ? 
   
-  Tout simplement car je m'ennuie et j'ai trop regardé Underscore pendant mon arrêt de travail.
+   Tout simplement car je m'ennuie et j'ai trop regardé Underscore pendant mon arrêt de travail.
   
   
 
