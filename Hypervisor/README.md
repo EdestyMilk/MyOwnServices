@@ -9,6 +9,6 @@
    - VMWare VSphere/ESXi
     VMWare est connu pour son outil pour virtualiser des machines sous nos PCs mais ils ont une solution pour créer une flotte de VMs, une version gratuite est à disposition et l'interface est plus ergonomique. Par contre je ne sais pas encore à quel limitations je vais être confrontés. 
 
-   - Conclusion
-    Je choisis VMWare car il sera plus simple pour commencer et ça va pouvoir m'apporter des connaissances pour le monde professionnel en matière de DevOps. 
+   - Conclusion : 
+     - Je choisis VMWare car il sera plus simple pour commencer et ça va pouvoir m'apporter des connaissances pour le monde professionnel en matière de DevOps. 
     
