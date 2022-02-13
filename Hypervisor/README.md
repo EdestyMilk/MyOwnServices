@@ -24,4 +24,9 @@
    - Donc maintenant on crée notre clé avec notre software fav
    - Après on lance notre rig et boot sur la clé
    - L'installation est muni d'une interface pour faire l'installation chercher des guides ils vous expliqueront mieux que moi. 
-    
+    # Problèmes rencontrés
+
+    - Configuration réseau
+        - Le réseau était mal configuré : de ce que j'ai vu Proxmox bridge notre adaptateur ethernet pour avoir la main dessus, le problème étant que j'ai réglé cela en utilisant une solution archaïque je trouve en changant la conf au niveau de mon /etc/network/interface (fichier mis dans le repo).
+    - Chercher la template qui correspond à mes attentes
+        - Le problème des VMs étant de bien gérer les ressources que l'on a : Pour l'instant j'ai trouvé des images de Ubuntu qu'on appelle Cloud-init qui sont là pour être optimisé pour des déploiements rapides et aussi peu onéreux en matière de stockage dans l'hyperviseur. 
