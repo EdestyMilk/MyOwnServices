@@ -11,16 +11,16 @@
 
     - Conclusion : 
       - Bon au début je devais prendre Vsphere mais bon c'est pas possible donc je me tourne vers Proxmox VE.
-   # Installation
+    # Installation
 
-   - Pour installer notre "chef d'orchestre" il nous faut :
-    - Une clé USB de 8GB (même moins ça se trouve)
-    - L'ISO de Proxmox VE disponible sur leur site gratuitement
-    - Etcher ou Rufus (choisissez votre préf)
-    - Notre petit rig donc mon bon vieux i7
-    - Une connexion Internet
-    - Un cerveau
-    - Un autre pc pour l'interface web
+    - Pour installer notre "chef d'orchestre" il nous faut :
+      - Une clé USB de 8GB (même moins ça se trouve)
+      - L'ISO de Proxmox VE disponible sur leur site gratuitement
+      - Etcher ou Rufus (choisissez votre préf)
+      - Notre petit rig donc mon bon vieux i7
+      - Une connexion Internet
+      - Un cerveau
+      - Un autre pc pour l'interface web
    - Donc maintenant on crée notre clé avec notre software fav
    - Après on lance notre rig et boot sur la clé
    - L'installation est muni d'une interface pour faire l'installation chercher des guides ils vous expliqueront mieux que moi. 
