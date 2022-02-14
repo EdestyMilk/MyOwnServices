@@ -1,0 +1,14 @@
+auto lo
+iface lo inet loopback
+
+iface enx0050b674a774 inet manual
+
+auto vmbr0
+iface vmbr0 inet static
+	address [YOUR NET-ID].[ANY NUMBER NOT USED]/24
+	gateway [DEPENDS ON YOUR MODEM]
+	bridge-ports enx0050b674a774
+	bridge-stp off
+	bridge-fd 0
+
+iface enp3s0 inet manual
