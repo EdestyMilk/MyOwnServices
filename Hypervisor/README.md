@@ -32,4 +32,5 @@
     - Configurer la template
         - L'image cloud-init est déjà à configurer pour mettre un password au super-utilisateur donc pour ça j'ai utilisé la commande virt-customize, d'abord on l'installe sur notre Hyperviseur avec : ```apt install --no-install-recommends --no-install-suggests libguestfs-tools```
         - Après on peut télécharger notre image à l'aide de ```wget``` et après on peut faire la commande ```virt-customize -a bionic-server-cloudimg-amd64.img --root-password password:reindeer-flotilla```
-        - Après ça on suit le guide à cette adresse : https://pve.proxmox.com/wiki/Cloud-Init_Support qui nous permet de créer une template prête à être cloné. 
+        - Après ça on suit le guide à cette adresse : https://pve.proxmox.com/wiki/Cloud-Init_Support qui nous permet de créer une template prête à être cloné.
+        - Il faut que j'arrive à faire la conf réseau automatiquement en cas de rédemarrage si il y a une coupure de courant par exemple ou tout simplement je dois éteindre la machine pour changer un composant.  
