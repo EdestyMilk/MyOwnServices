@@ -1,5 +1,5 @@
-#openmediavault
-    #Français
+# openmediavault
+    # Français
         - Pour le premier service ce sera openmediavault qui est un service permettant de faire un NAS dans notre réseau.
         - Son installation m'aura demandé de refaire une template Proxmox mais avec Debian car openmediavault est très dépendant des packages de Debian.
         - Après il faut monter nos disques qui stockeront nos données, alors plusieurs façons s'ouvrent à nous :
