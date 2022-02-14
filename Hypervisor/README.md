@@ -30,3 +30,7 @@
         - Le réseau était mal configuré : de ce que j'ai vu Proxmox bridge notre adaptateur ethernet pour avoir la main dessus, le problème étant que j'ai réglé cela en utilisant une solution archaïque je trouve en changant la conf au niveau de mon /etc/network/interface (fichier mis dans le repo).
     - Chercher la template qui correspond à mes attentes
         - Le problème des VMs étant de bien gérer les ressources que l'on a : Pour l'instant j'ai trouvé des images de Ubuntu qu'on appelle Cloud-init qui sont là pour être optimisé pour des déploiements rapides et aussi peu onéreux en matière de stockage dans l'hyperviseur. 
+    - Configurer la template
+        - L'image cloud-init est déjà à configurer pour mettre un password au super-utilisateur donc pour ça j'ai utilisé la commande virt-customize, d'abord on l'installe sur notre Hyperviseur avec : ```apt install --no-install-recommends --no-install-suggests libguestfs-tools```
+        - Après on peut télécharger notre image à l'aide de ```wget``` et après on peut faire la commande ```virt-customize -a bionic-server-cloudimg-amd64.img --root-password password:coolpass```
+        - Après ça on suit le guide à cette adresse : https://pve.proxmox.com/wiki/Cloud-Init_Support qui nous permet de créer une template prête à être cloné. 
